@@ -1,7 +1,7 @@
 {
   "name": "loader",
   "version": "0.0.0",
-  "main": "./src/electron.prod.js",
+  "main": "./electron.prod.js",
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"ng serve\" \"npm run electron\"",
