@@ -9,10 +9,6 @@ function createWindow () {
     width: 600,
     height: 600,
     backgroundColor: '#ffffff',
-    webPreferences: {
-          nodeIntegration: true,
-          webSecurity: false
-      },
     icon: `file://${__dirname}/dist/assets/logo.png`
   })
 
